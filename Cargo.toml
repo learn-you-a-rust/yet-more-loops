@@ -1,0 +1,7 @@
+[package]
+name = "yet-more-loops"
+version = "0.1.0"
+authors = ["greyspectrum <hello@greyspectrum.io>"]
+edition = "2018"
+
+[dependencies]
