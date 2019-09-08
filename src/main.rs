@@ -1,14 +1,11 @@
 fn main() {
-    let mut counter = 0;
+    let mut number = 3;
 
-    let result = loop {
-        counter += 1;
+    while number != 0 {
+        println!("{}!", number);
 
-        if counter == 10 {
-            break counter * 2;
-        }
-    };
-    
-    assert_eq!(result, 20);
-    println!("result is: {}", result);
+        number = number - 1;
+    }
+
+    println!("LIFTOFF!");
 }
